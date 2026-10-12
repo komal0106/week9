@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: kubedemoapp
-          image: nandini9334/week8:kubeimage1 # use your Docker Hub image
+        image: komal0106/week8:kubeimage1 # use your Docker Hub image
           ports:
             - containerPort: 5050
